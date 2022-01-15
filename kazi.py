@@ -192,7 +192,7 @@ def pilih_login():
 def login1():
     os.system('clear')
     print logo
-    print '\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;93m[1]\x1b[1;93m ALIF Fast Clone BD FB Accounts.'
+    print '\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;93m[1]\x1b[1;93m Fast Clone BD FB Accounts.'
     print "\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \033[1;93m[2] Follow Me On Facebook"
     print '\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Exit The Program.'
     pilih_login1()
@@ -218,7 +218,7 @@ def pilih_login1():
 def Zk():
     os.system('clear')
     print logo1
-    print '\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;93m[1]\x1b[1;93m ALIF Start The Process'
+    print '\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;93m[1]\x1b[1;93m KAZI Start The Process'
     time.sleep(0.05)
     print '\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;93m[0]\x1b[1;93m Go Back To The Previous Menu'
     time.sleep(0.05)
@@ -246,7 +246,7 @@ def Trypass():
 
 
 def pilih_Trypass():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m[ALIF]] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m[KAZI] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '[!] Fill In Correctly'
         pilih_Trypass()
@@ -285,7 +285,7 @@ def automatic():
         Trypass()
 
     print 50 * '\033[1;95m◈'
-    print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ ALIF Cloning Process Has Been Started ◈◈◈◈◈◈◈◈'
+    print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ Kazi Cloning Process Has Been Started ◈◈◈◈◈◈◈◈'
     print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ To Stop The Process Press CTRl+Z ◈◈◈◈◈◈◈◈'
     xxx = str(len(id))
     jalan('[☣️] \x1b[1;97mTotal Numbers: ' + xxx)
