@@ -106,7 +106,7 @@ print """
 \033[1;91m   ╔══════════════════════════════════════╗
 \033[1;93m                                             
 \033[1;93m     CODER NAME : KAZI ASHRAFUZZAMAN
-\033[1;93m     FACEBOOK USER LINK: @M182B.SADHON
+\033[1;93m     FACEBOOK USER : @M182B.SADHON
 \033[1;93m     WARNING : USE 2GB RAM PHONE & 4G INTERNET
 \033[1;93m                                           
 \033[1;93m   ╚══════════════════════════════════════╝    
@@ -156,7 +156,7 @@ CorrectPassWord = 'KAZI'
 print '   \x1b[1;93m[📛] PassWord Required To Enter [📛]'
 loop = 'true'
 while loop == 'true':
-    PassWord = raw_input('\x1b[1;93m[\x1b[1;92m[ALIF]\033[1;93m] \x1b[1;91m[♻️] Enter PassWord\x1b[1;97m: ')
+    PassWord = raw_input('\x1b[1;93m[\x1b[1;92m[KAZI]\033[1;93m] \x1b[1;91m[♻️] Enter PassWord\x1b[1;97m: ')
     if (PassWord == CorrectPassWord):
         print('\n            \x1b[1;92m🆗 Correct Entry 🆗 \n                  ')
         jalan('    \x1b[1;97m+-+-+-+-+-+-+-+-+-+-+-+-+- WELCOME TO DARK WORLD +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+')
